@@ -1,0 +1,25 @@
+#root {
+  margin: 0 auto;
+  text-align: left;
+}
+
+:root {
+  --color-primary: #8a7b6d;
+  --color-secondary: #6c757d;
+  --color-accent: #c19a6b;
+  --color-bg: #f6f3ee;
+  --color-text: #222222;
+}
+
+html, body, #root {
+  min-height: 100vh;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+a { color: var(--color-primary); }
+
+img { max-width: 100%; height: auto; display: block; }
