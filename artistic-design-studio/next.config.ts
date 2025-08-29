@@ -1,0 +1,23 @@
+/** @type {import('next').NextConfig} */
+import type { Configuration } from 'webpack';
+
+const nextConfig = {
+  images: {
+    formats: ['image/avif', 'image/webp'],
+  },
+  webpack: (config: Configuration) => {
+    config.module?.rules?.push({
+      test: /\.(glb|gltf)$/,
+      use: {
+        loader: 'file-loader',
+        options: {
+          publicPath: '/_next/static/models/',
+          outputPath: 'static/models/',
+        },
+      },
+    });
+    return config;
+  },
+}
+
+module.exports = nextConfig;
