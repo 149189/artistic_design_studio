@@ -1119,12 +1119,13 @@ const ArtisticDesignStudio = () => {
               <p style={{ color: "#718096" }}>
                 Email: hello@artisticstudio.example
                 <br />
-                Phone: +91 12345 67890
+                Phone: +91 9987548004
               </p>
               <div style={{ marginTop: "1rem" }}>
                 <strong>Office:</strong>
                 <p style={{ marginTop: "0.5rem", color: "#4a5568" }}>
-                  12 Creative Lane, Design District, Mumbai, India
+                  Shop no. 2, Manohar Kene Complex, Regency Anantam, Golavali
+                  gaon, Dombivli East.
                 </p>
               </div>
             </div>
