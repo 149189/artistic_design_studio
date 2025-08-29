@@ -1,0 +1,14 @@
+/* globals.css */
+body {
+    background: url('/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.2;
+    /* Adjust visibility */
+    filter: brightness(1.1) contrast(0.9);
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 2rem;
+    border-radius: 16px;
+}
